@@ -1,0 +1,358 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+}
+
+
+
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+html {
+    font-family: "Lucida Sans", sans-serif;
+
+    font-size: 20px;
+}
+
+/*-----------body img start------------------------------------------*/
+
+
+.main_container {
+    background-image: url("https://i.postimg.cc/HnWK3np0/bangladesh-air-force-1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1140px;
+}
+
+
+
+
+
+/*-----------body img end------------------------------------------*/
+
+
+
+
+/*-----------nav_section start------------------------------------------*/
+
+
+
+
+
+.nav_menu {
+    margin-top: 30px;
+}
+
+
+
+
+.logo_band img {
+    width: 400px;
+    height: 80px;
+
+}
+
+
+
+
+
+
+.nav_menu nav ul {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+
+
+
+
+.nav_menu nav ul li {
+    list-style-type: none;
+
+}
+
+
+.nav_menu nav ul li a {
+    text-decoration: none;
+    color: midnightblue;
+
+}
+
+
+
+.nav_menu nav ul li a:hover {
+    border: 2px solid green;
+    color: cornflowerblue;
+    background-color: transparent;
+    padding: 5px 8px;
+
+    border-radius: 5px;
+
+    transform: translateY(10px);
+
+    transition: all 2s;
+}
+
+
+
+
+
+
+
+
+/*-----------nav_section end------------------------------------------*/
+
+
+
+
+/*----------- font_area start------------------------------------------*/
+
+
+
+
+
+
+
+
+.font_section {
+    margin: auto;
+    width: 50%;
+    margin-top: 224px;
+}
+
+
+
+.font_section h6 {
+    font-size: 2rem;
+
+    color: #878585;
+}
+
+
+
+.font_section p {
+    font-size: 30px;
+
+    color: #0553a3;
+}
+
+
+
+
+
+/*----------- font_area end------------------------------------------*/
+
+
+
+
+
+
+
+
+/*----------- marque_area start------------------------------------------*/
+
+
+
+
+.marque_area {
+    width: 100%;
+    background-color: black;
+    overflow: hidden;
+    border: 1px solid blue;
+    padding: 0;
+}
+
+
+
+.notice_text {
+    padding: 0;
+}
+
+
+
+.marque_area h3 {
+    color: white;
+    background-color: blue;
+    padding: 12px 58px;
+    display: inline-block;
+
+
+}
+
+
+
+.marque_round {
+    float: left;
+    padding: 0;
+    margin-top: 10px;
+}
+
+
+
+.marque_round marquee a {
+    color: yellow;
+    text-decoration: none;
+
+    margin-left: 70px;
+}
+
+
+
+
+
+
+
+/*----------- marque_area end------------------------------------------*/
+
+
+
+/*----------- full_services start------------------------------------------*/
+
+.full_services {
+    margin-top: 30px;
+
+}
+
+.main_services {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+}
+
+
+.main_services ,.full_services h1 {
+    text-align: center;
+    color: brown;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.service_continer {
+    width: 80%;
+    margin: auto;
+    
+
+}
+
+
+
+
+.services_block {
+    background-color: blueviolet;
+    height: 180px;
+    border-radius: 8px;
+    margin: 20px;
+
+
+
+}
+
+
+
+
+
+.services_block h4 {
+    text-align: center;
+    padding: 10px 15px;
+
+    background-color: white;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.button_services button {
+    text-align: center;
+    padding: 8px 10px;
+
+    background-color: darkcyan;
+    border: 1px solid green;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+
+    margin-left: 73px;
+    color: white;
+    margin-bottom: 20px;
+
+
+}
+
+
+
+
+
+
+.services_block:hover {
+    transform: scale(1.1);
+    transition: all 2s;
+}
